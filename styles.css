@@ -1,0 +1,170 @@
+body
+{
+  text-align: center;
+}
+h1,h2,h3
+{
+  font-family: 'Montserrat';
+}
+p
+{
+  color: #8f8f8f;
+  font-size: 1.1rem;
+}
+.colored_background
+{
+  background-color: #E60965;
+  color: white;
+}
+.white_background
+{
+  background-color: #fff;
+  color: #E60965;
+}
+.big_heading
+{
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.small_heading
+{
+  font-weight: bold;
+  font-size: 1.7rem;
+  font-weight:800;
+}
+.Download_button
+{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  margin:6% 2% 5% 0;
+}
+.container-fluid
+{
+  /* padding: 7% 15%; */
+}
+/* navigation section */
+.navbar-brand
+{
+  margin-left: 7px;
+  font-size: 2rem;
+  font-family: Ubuntu, sans-serif;
+}
+.navbar
+{
+  padding-bottom: 2rem;
+  padding-left:0;
+}
+.nav-item
+{
+  padding: 0 15px;
+}
+/* title */
+#title .container-fluid
+{
+  font-family: 'Montserrat';
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+.title_option
+{
+  font-weight:800;
+}
+.img_1
+{
+  padding-top: 10%;
+  margin-left: 5%;
+  width: 65%;
+  transform: rotate(20deg);
+  position: absolute;
+}
+/* features_section */
+#features
+{
+  position: relative;
+}
+.sect_2
+{
+  margin-right: 0;
+  padding:  15% 10%;
+}
+.feature_icon
+{
+  color:#E60965;
+  margin-bottom: 20px;
+}
+.feature_icon:hover
+{
+  color:#FFA1C9;
+}
+/* testimonial */
+#testimonials
+{
+  background-color: #FBE5E5;
+  color:#E60965 ;
+}
+.testimonial_img
+{
+  border-radius: 100%;
+  width: 12%;
+  margin-right: 20px;
+}
+#press
+{
+  background-color: #FBE5E5;
+  height:150px;
+}
+.press_logo
+{
+  height:23%;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+/* pricing section */
+.price_button:hover
+{
+  background-color: #E60965;
+  border: none;
+}
+.pricing_column
+{
+  padding: 4% 2%;
+}
+@media(max-width:1028px)
+{
+  #title
+  {
+    text-align: center;
+  }
+  .img_1
+  {
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* call to action */
+#cta
+{
+  color: #FBE5E5;
+}
+/* footer */
+#footer
+{
+  background-color: #FBE5E5;
+}
+.footer_icon
+{
+  color: #E60965;
+  padding: 60px 30px 0;
+}
+.footer_icon:hover
+{
+  color:#FFA1C9;
+}
+.footer_text
+{
+  color: #E60965;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  margin-bottom: 0;
+}
