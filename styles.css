@@ -52,20 +52,21 @@ p
 }
 .navbar
 {
+  padding-top: 2rem;
   padding-bottom: 2rem;
   padding-left:0;
 }
 .nav-item
 {
-  padding: 0 15px;
+  padding: 0 10px;
 }
 /* title */
 #title .container-fluid
 {
   font-family: 'Montserrat';
   text-align: left;
-  padding: 3% 17% 7%;
-  height: 540px;
+  padding: 3% 14% 7%;
+  height: 560px;
 }
 .title_option
 {
@@ -74,16 +75,16 @@ p
 .img_1
 {
   padding-top: 10%;
-  margin-left: 5%;
-  width: 65%;
-  transform: rotate(20deg);
+  margin-left: 9%;
+  width: 59%;
+  transform: rotate(18deg);
   position: absolute;
 }
 /* features_section */
 #features
 {
   position: relative;
-    padding: 0;
+    padding: 100px;
   }
 .sect_2
 {
@@ -194,4 +195,6 @@ p
   text-decoration: none;
   color:#FFA1C9;
 }
+
+
 
